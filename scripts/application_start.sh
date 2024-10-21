@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ec2-user/iHARP_DI-app
+sudo chmod -R 777 /home/ec2-user/django-react-starter2
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/iHARP_DI-app
+cd /home/ec2-user/django-react-starter2
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
